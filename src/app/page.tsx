@@ -31,78 +31,45 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "À Propos",          id: "about"},
         {
-          name: "Testimonials",
-          id: "testimonials",
-        },
+          name: "Témoignages",          id: "testimonials"},
         {
-          name: "Pricing",
-          id: "pricing",
-        },
+          name: "Tarifs",          id: "pricing"},
       ]}
       brandName="CreativeFlow Studio"
       button={{
-        text: "Get a Quote",
-        href: "#contact",
-      }}
+        text: "Obtenir un Devis",        href: "#contact"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "rotated-rays-animated",
-      }}
-      title="Ignite Your Brand with Creative Design & Strategic Marketing"
-      description="As a seasoned freelancer, I blend innovative graphic and web design with powerful communication and marketing strategies to elevate your business and connect with your audience."
+        variant: "rotated-rays-animated"}}
+      title="Allumez Votre Marque avec un Design Créatif & un Marketing Stratégique"
+      description="En tant que freelance expérimenté, je combine un design graphique et web innovant avec de puissantes stratégies de communication et de marketing pour élever votre entreprise et vous connecter à votre public."
       buttons={[
         {
-          text: "View My Portfolio",
-          href: "#services",
-        },
+          text: "Voir Mon Portfolio",          href: "#services"},
         {
-          text: "Get a Free Consultation",
-          href: "#contact",
-        },
+          text: "Obtenir une Consultation Gratuite",          href: "#contact"},
       ]}
       carouselItems={[
         {
-          id: "1",
-          imageSrc: "http://img.b2bpic.net/free-psd/neon-type-web-page-template_23-2149250894.jpg",
-          imageAlt: "Freelance graphic design portfolio showcase",
-        },
+          id: "1",          imageSrc: "http://img.b2bpic.net/free-psd/neon-type-web-page-template_23-2149250894.jpg",          imageAlt: "Présentation de portfolio de conception graphique freelance"},
         {
-          id: "2",
-          imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app_23-2148627558.jpg",
-          imageAlt: "Creative web development mockups modern",
-        },
+          id: "2",          imageSrc: "http://img.b2bpic.net/free-vector/goals-habits-tracking-app_23-2148627558.jpg",          imageAlt: "Maquettes modernes de développement web créatif"},
         {
-          id: "3",
-          imageSrc: "http://img.b2bpic.net/free-photo/plus-size-woman-working-professional-business-office_23-2150579586.jpg",
-          imageAlt: "Digital marketing strategy presentation",
-        },
+          id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/plus-size-woman-working-professional-business-office_23-2150579586.jpg",          imageAlt: "Présentation de stratégie de marketing digital"},
         {
-          id: "4",
-          imageSrc: "http://img.b2bpic.net/free-vector/collection-professional-stationery-template-business-presentation_1017-54129.jpg",
-          imageAlt: "Communication design branding elements",
-        },
+          id: "4",          imageSrc: "http://img.b2bpic.net/free-vector/collection-professional-stationery-template-business-presentation_1017-54129.jpg",          imageAlt: "Éléments de branding en design de communication"},
         {
-          id: "5",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg",
-          imageAlt: "Responsive web design laptop tablet phone",
-        },
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg",          imageAlt: "Conception web responsive sur ordinateur portable, tablette, téléphone"},
         {
-          id: "6",
-          imageSrc: "http://img.b2bpic.net/free-photo/data-analysis-marketing-business-report-concept_53876-124759.jpg",
-          imageAlt: "Social media marketing campaign planning",
-        },
+          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/data-analysis-marketing-business-report-concept_53876-124759.jpg",          imageAlt: "Planification de campagne de marketing sur les réseaux sociaux"},
       ]}
     />
   </div>
@@ -110,23 +77,17 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <AboutMetric
       useInvertedBackground={false}
-      title="About My Journey & Expertise"
+      title="À Propos de Mon Parcours & Mon Expertise"
       metrics={[
         {
           icon: Award,
-          label: "Years Experience",
-          value: "10+",
-        },
+          label: "Années d'Expérience",          value: "10+"},
         {
           icon: Users,
-          label: "Satisfied Clients",
-          value: "150+",
-        },
+          label: "Clients Satisfaits",          value: "150+"},
         {
           icon: Sparkles,
-          label: "Projects Completed",
-          value: "200+",
-        },
+          label: "Projets Réalisés",          value: "200+"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -139,65 +100,37 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          tag: "Design",
-          title: "Graphic Design",
-          subtitle: "Visually stunning brand identities",
-          description: "Crafting logos, branding guidelines, print materials, and digital assets that perfectly represent your vision and resonate with your audience.",
-          imageSrc: "http://img.b2bpic.net/free-vector/initial-b-c-coffee-bean-shop-logo-business-branding-template-design-inspiration_384344-1595.jpg",
-        },
+          tag: "Design",          title: "Conception Graphique",          subtitle: "Identités de marque visuellement époustouflantes",          description: "Création de logos, de directives de marque, de supports imprimés et d'actifs numériques qui représentent parfaitement votre vision et résonnent avec votre public.",          imageSrc: "http://img.b2bpic.net/free-vector/initial-b-c-coffee-bean-shop-logo-business-branding-template-design-inspiration_384344-1595.jpg"},
         {
           id: 2,
-          tag: "Digital",
-          title: "Web Design & Development",
-          subtitle: "Engaging, responsive, and functional websites",
-          description: "Building modern, user-friendly websites with intuitive navigation, stunning aesthetics, and robust functionality across all devices.",
-          imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-10153.jpg",
-        },
+          tag: "Digital",          title: "Conception & Développement Web",          subtitle: "Sites web engageants, responsifs et fonctionnels",          description: "Construction de sites web modernes et conviviaux avec une navigation intuitive, une esthétique époustouflante et des fonctionnalités robustes sur tous les appareils.",          imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-10153.jpg"},
         {
           id: 3,
-          tag: "Strategy",
-          title: "Communication Strategy",
-          subtitle: "Clear and compelling brand messaging",
-          description: "Developing effective communication plans, compelling copy, and consistent brand voice to ensure your message is heard loud and clear.",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg",
-        },
+          tag: "Stratégie",          title: "Stratégie de Communication",          subtitle: "Messages de marque clairs et percutants",          description: "Développement de plans de communication efficaces, de textes percutants et d'une voix de marque cohérente pour que votre message soit entendu haut et fort.",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg"},
         {
           id: 4,
-          tag: "Growth",
-          title: "Digital Marketing Solutions",
-          subtitle: "Maximize your online reach and impact",
-          description: "Implementing data-driven strategies for SEO, social media, email marketing, and paid campaigns to boost visibility and drive conversions.",
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-using-smartphones-together-outdoors_53876-26150.jpg",
-        },
+          tag: "Croissance",          title: "Solutions de Marketing Digital",          subtitle: "Maximisez votre portée et votre impact en ligne",          description: "Mise en œuvre de stratégies basées sur les données pour le SEO, les médias sociaux, l'email marketing et les campagnes payantes afin d'accroître la visibilité et de générer des conversions.",          imageSrc: "http://img.b2bpic.net/free-photo/friends-using-smartphones-together-outdoors_53876-26150.jpg"},
       ]}
-      title="My Services: Design, Communication, & Marketing"
-      description="From captivating visuals to engaging online presence and strategic outreach, I offer a comprehensive suite of services tailored to your unique business needs."
+      title="Mes Services : Design, Communication, & Marketing"
+      description="Des visuels captivants à une présence en ligne engageante et une portée stratégique, j'offre une suite complète de services adaptés à vos besoins commerciaux uniques."
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={false}
-      testimonial="Working with CreativeFlow Studio was a game-changer for our brand. The graphic design work was exceptional, and the communication strategy perfectly captured our voice. Highly recommend!"
+      testimonial="Travailler avec CreativeFlow Studio a changé la donne pour notre marque. Le travail de conception graphique était exceptionnel, et la stratégie de communication a parfaitement capturé notre voix. Je le recommande vivement !"
       rating={5}
-      author="Jessica L., CEO of InnovateTech"
+      author="Jessica L., PDG d'InnovateTech"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/business-woman-sitting-table_23-2148095754.jpg",
-          alt: "Jessica L., CEO of InnovateTech",
-        },
+          src: "http://img.b2bpic.net/free-photo/business-woman-sitting-table_23-2148095754.jpg",          alt: "Jessica L., PDG d'InnovateTech"},
         {
-          src: "http://img.b2bpic.net/free-photo/studio-portrait-serious-bearded-male-dressed-suit_613910-5596.jpg",
-          alt: "Mark T., Founder of GreenBloom",
-        },
+          src: "http://img.b2bpic.net/free-photo/studio-portrait-serious-bearded-male-dressed-suit_613910-5596.jpg",          alt: "Mark T., Fondateur de GreenBloom"},
         {
-          src: "http://img.b2bpic.net/free-photo/beautiful-dark-skinned-female-with-long-brunette-hair-broad-happy-smile-wearing-denim-shirt-enjoying-good-positive-news-concerning-her-promotion-work-posing-isolated-against-white-blank-wall-b_176420-10367.jpg",
-          alt: "Sarah P., Marketing Director at NexusCorp",
-        },
+          src: "http://img.b2bpic.net/free-photo/beautiful-dark-skinned-female-with-long-brunette-hair-broad-happy-smile-wearing-denim-shirt-enjoying-good-positive-news-concerning-her-promotion-work-posing-isolated-against-white-blank-wall-b_176420-10367.jpg",          alt: "Sarah P., Directrice Marketing chez NexusCorp"},
         {
-          src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",
-          alt: "David K., Product Manager at OptiSolutions",
-        },
+          src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",          alt: "David K., Chef de Produit chez OptiSolutions"},
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
@@ -211,65 +144,35 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "starter",
-          badge: "Perfect Start",
-          badgeIcon: Sparkles,
-          price: "$750+",
-          subtitle: "Ideal for startups & small projects",
-          buttons: [
+          id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
+          price: "$750+",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
-              text: "Get Started",
-              href: "#contact",
-            },
+              text: "Commencer",              href: "#contact"},
           ],
           features: [
-            "Basic Logo Design",
-            "1-Page Website",
-            "Social Media Audit",
-            "Basic SEO Setup",
-          ],
+            "Conception de Logo Basique",            "Site Web 1 Page",            "Audit des Réseaux Sociaux",            "Configuration SEO Basique"],
         },
         {
-          id: "pro",
-          badge: "Most Popular",
-          badgeIcon: Star,
-          price: "$2,500+",
-          subtitle: "For growing businesses seeking impact",
-          buttons: [
+          id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
+          price: "$2,500+",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
-              text: "Choose Pro",
-              href: "#contact",
-            },
+              text: "Choisir Pro",              href: "#contact"},
           ],
           features: [
-            "Full Brand Identity",
-            "3-5 Page Website",
-            "Content Strategy",
-            "Targeted Marketing Campaign",
-          ],
+            "Identité de Marque Complète",            "Site Web 3-5 Pages",            "Stratégie de Contenu",            "Campagne Marketing Ciblée"],
         },
         {
-          id: "enterprise",
-          badge: "Custom Solutions",
-          badgeIcon: Crown,
-          price: "Custom",
-          subtitle: "Tailored for large projects & ongoing needs",
-          buttons: [
+          id: "enterprise",          badge: "Solutions Personnalisées",          badgeIcon: Crown,
+          price: "Personnalisé",          subtitle: "Adapté aux grands projets & besoins continus",          buttons: [
             {
-              text: "Contact for Quote",
-              href: "#contact",
-            },
+              text: "Contactez-nous pour un Devis",              href: "#contact"},
           ],
           features: [
-            "Comprehensive Branding",
-            "Custom Web Application",
-            "Advanced Digital Marketing",
-            "Dedicated Support",
-          ],
+            "Branding Complet",            "Application Web Personnalisée",            "Marketing Digital Avancé",            "Support Dédié"],
         },
       ]}
-      title="Flexible Packages for Every Need"
-      description="Choose from our expertly crafted packages or let's create a custom solution that perfectly fits your project and budget."
+      title="Forfaits Flexibles pour Tous les Besoins"
+      description="Choisissez parmi nos forfaits conçus par des experts ou créons une solution personnalisée qui correspond parfaitement à votre projet et à votre budget."
     />
   </div>
 
@@ -277,18 +180,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
-      text="Ready to transform your brand? Let's create something amazing together. Reach out today for a personalized discussion."
+        variant: "radial-gradient"}}
+      text="Prêt(e) à transformer votre marque ? Créons quelque chose d'incroyable ensemble. Contactez-moi aujourd'hui pour une discussion personnalisée."
       buttons={[
         {
-          text: "Send a Message",
-          href: "mailto:hello@creativeflow.com",
-        },
+          text: "Envoyer un Message",          href: "mailto:hello@creativeflow.com"},
         {
-          text: "Schedule a Call",
-          href: "#",
-        },
+          text: "Planifier un Appel",          href: "#"},
       ]}
     />
   </div>
@@ -299,49 +197,31 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Accueil",              href: "/"},
             {
-              label: "Services",
-              href: "#services",
-            },
+              label: "Services",              href: "#services"},
             {
-              label: "Portfolio",
-              href: "#services",
-            },
+              label: "Portfolio",              href: "#services"},
           ],
         },
         {
           items: [
             {
-              label: "About Me",
-              href: "#about",
-            },
+              label: "À Propos",              href: "#about"},
             {
-              label: "Testimonials",
-              href: "#testimonials",
-            },
+              label: "Témoignages",              href: "#testimonials"},
             {
-              label: "Pricing",
-              href: "#pricing",
-            },
+              label: "Tarifs",              href: "#pricing"},
           ],
         },
         {
           items: [
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Politique de Confidentialité",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Conditions Générales de Vente",              href: "#"},
           ],
         },
       ]}
