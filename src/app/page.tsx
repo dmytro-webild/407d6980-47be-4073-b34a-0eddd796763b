@@ -145,7 +145,7 @@ export default function LandingPage() {
       plans={[
         {
           id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
-          price: "$750+",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
+          price: "750€+",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
               text: "Commencer",              href: "#contact"},
           ],
@@ -154,7 +154,7 @@ export default function LandingPage() {
         },
         {
           id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
-          price: "$2,500+",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
+          price: "2,500€+",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
               text: "Choisir Pro",              href: "#contact"},
           ],
@@ -221,7 +221,7 @@ export default function LandingPage() {
             {
               label: "Politique de Confidentialité",              href: "#"},
             {
-              label: "Conditions Générales de Vente",              href: "#"},
+              label: "Conditions Générales",              href: "#"},
           ],
         },
       ]}
