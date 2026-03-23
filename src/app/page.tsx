@@ -39,7 +39,7 @@ export default function LandingPage() {
         {
           name: "Tarifs",          id: "pricing"},
       ]}
-      brandName="CreativeFlow Studio"
+      brandName="STRUCTURAL COLOR"
       button={{
         text: "Obtenir un Devis",        href: "#contact"}}
     />
@@ -225,7 +225,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="CreativeFlow Studio"
+      logoText="STRUCTURAL COLOR"
     />
   </div>
       </ReactLenis>
