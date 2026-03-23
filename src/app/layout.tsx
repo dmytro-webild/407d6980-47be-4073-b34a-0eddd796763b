@@ -11,7 +11,7 @@ import { Archivo } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'CreativeFlow Studio | Freelance Graphic Design & Marketing',
+  title: 'STRUCTURAL COLOR | Freelance Graphic Design & Marketing',
   description: 'Elevate your brand with expert freelance graphic design, web design, communication, and digital marketing services. Get a high-converting website and impactful visuals.',
   keywords: ["freelance, graphic design, web design, communication, marketing, digital marketing, branding, logo design, website development, SEO, social media, content strategy"],
   openGraph: {
