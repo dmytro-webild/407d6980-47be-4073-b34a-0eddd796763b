@@ -39,7 +39,7 @@ export default function LandingPage() {
         {
           name: "Tarifs",          id: "pricing"},
       ]}
-      brandName="STRUCTURAL COLOR"
+      brandName="STRUCTURAL // COLOR"
       button={{
         text: "Obtenir un Devis",        href: "#contact"}}
     />
@@ -49,8 +49,8 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-animated"}}
-      title="Allumez Votre Marque avec un Design Créatif & un Marketing Stratégique"
-      description="En tant que freelance expérimenté, je combine un design graphique et web innovant avec de puissantes stratégies de communication et de marketing pour élever votre entreprise et vous connecter à votre public."
+      title="Agence de Design Créatif et de Stratégie Marketing pour Développer Votre Marque"
+      description="Nous créons des expériences visuelles impactantes et déployons des stratégies marketing sur mesure pour faire grandir votre marque et engager durablement votre audience."
       buttons={[
         {
           text: "Voir Mon Portfolio",          href: "#services"},
@@ -81,13 +81,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: Award,
-          label: "Années d'Expérience",          value: "10+"},
+          label: "Années d'Expérience",          value: "5+"},
         {
           icon: Users,
-          label: "Clients Satisfaits",          value: "150+"},
+          label: "Clients Satisfaits",          value: "10+"},
         {
           icon: Sparkles,
-          label: "Projets Réalisés",          value: "200+"},
+          label: "Projets Réalisés",          value: "50+"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -100,7 +100,7 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          tag: "Design",          title: "Conception Graphique",          subtitle: "Identités de marque visuellement époustouflantes",          description: "Création de logos, de directives de marque, de supports imprimés et d'actifs numériques qui représentent parfaitement votre vision et résonnent avec votre public.",          imageSrc: "http://img.b2bpic.net/free-vector/initial-b-c-coffee-bean-shop-logo-business-branding-template-design-inspiration_384344-1595.jpg"},
+          tag: "Design",          title: "Conception Graphique",          subtitle: "Identités de marque visuellement époustouflantes",          description: "Création de logos, d’identités de marque, de supports et d’actifs digitaux conçus pour refléter votre vision et capter l’attention de votre audience.",          imageSrc: "http://img.b2bpic.net/free-vector/initial-b-c-coffee-bean-shop-logo-business-branding-template-design-inspiration_384344-1595.jpg"},
         {
           id: 2,
           tag: "Digital",          title: "Conception & Développement Web",          subtitle: "Sites web engageants, responsifs et fonctionnels",          description: "Construction de sites web modernes et conviviaux avec une navigation intuitive, une esthétique époustouflante et des fonctionnalités robustes sur tous les appareils.",          imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-10153.jpg"},
@@ -112,7 +112,7 @@ export default function LandingPage() {
           tag: "Croissance",          title: "Solutions de Marketing Digital",          subtitle: "Maximisez votre portée et votre impact en ligne",          description: "Mise en œuvre de stratégies basées sur les données pour le SEO, les médias sociaux, l'email marketing et les campagnes payantes afin d'accroître la visibilité et de générer des conversions.",          imageSrc: "http://img.b2bpic.net/free-photo/friends-using-smartphones-together-outdoors_53876-26150.jpg"},
       ]}
       title="Mes Services : Design, Communication, & Marketing"
-      description="Des visuels captivants à une présence en ligne engageante et une portée stratégique, j'offre une suite complète de services adaptés à vos besoins commerciaux uniques."
+      description="Du design visuel impactant à une présence en ligne performante, en passant par des stratégies marketing ciblées, je propose des services complets pour développer votre entreprise et atteindre vos objectifs"
     />
   </div>
 
