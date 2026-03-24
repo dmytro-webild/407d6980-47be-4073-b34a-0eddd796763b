@@ -11,6 +11,7 @@ export default function ContactUsPage() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     message: '',
   });
 
@@ -25,6 +26,7 @@ export default function ContactUsPage() {
     setFormData({
       name: '',
       email: '',
+      phone: '',
       message: '',
     });
   };
@@ -47,13 +49,13 @@ export default function ContactUsPage() {
           <NavbarLayoutFloatingOverlay
             navItems={[
               {
-                name: "Services",                id: "services"},
+                name: "Services",                id: "/#services"},
               {
-                name: "À Propos",                id: "about"},
+                name: "À Propos",                id: "/#about"},
               {
-                name: "Témoignages",                id: "testimonials"},
+                name: "Témoignages",                id: "/#testimonials"},
               {
-                name: "Tarifs",                id: "pricing"},
+                name: "Tarifs",                id: "/#pricing"},
               {
                 name: "Contact",                id: "/contact-us"}
             ]}
@@ -70,6 +72,7 @@ export default function ContactUsPage() {
             inputs={[
               { name: "name", type: "text", placeholder: "Votre nom", required: true },
               { name: "email", type: "email", placeholder: "Votre adresse e-mail", required: true },
+              { name: "phone", type: "tel", placeholder: "Votre numéro de téléphone (optionnel)", required: false }
             ]}
             textarea={{ name: "message", placeholder: "Votre message", rows: 5, required: true }}
             useInvertedBackground={false}
@@ -89,19 +92,19 @@ export default function ContactUsPage() {
                   {
                     label: "Accueil",                    href: "/"},
                   {
-                    label: "Services",                    href: "#services"},
+                    label: "Services",                    href: "/#services"},
                   {
-                    label: "Portfolio",                    href: "#services"},
+                    label: "Portfolio",                    href: "/#services"},
                 ],
               },
               {
                 items: [
                   {
-                    label: "À Propos",                    href: "#about"},
+                    label: "À Propos",                    href: "/#about"},
                   {
-                    label: "Témoignages",                    href: "#testimonials"},
+                    label: "Témoignages",                    href: "/#testimonials"},
                   {
-                    label: "Tarifs",                    href: "#pricing"},
+                    label: "Tarifs",                    href: "/#pricing"},
                 ],
               },
               {
