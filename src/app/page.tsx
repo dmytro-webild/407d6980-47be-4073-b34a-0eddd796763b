@@ -154,12 +154,12 @@ export default function LandingPage() {
         },
         {
           id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
-          price: "2,500€+",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
+          price: "800 €",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
               text: "Choisir Pro",              href: "#contact"},
           ],
           features: [
-            "Identité de Marque Complète",            "Site Web 3-5 Pages",            "Stratégie de Contenu",            "Campagne Marketing Ciblée"],
+            "Identité de Marque Complète",            "Site Web 1 page",            "Audit et stratégie de contenu ",            "Set de 12 posts réseaux sociaux"],
         },
         {
           id: "enterprise",          badge: "Solutions Personnalisées",          badgeIcon: Crown,
@@ -171,7 +171,7 @@ export default function LandingPage() {
             "Branding Complet",            "Application Web Personnalisée",            "Marketing Digital Avancé",            "Support Dédié"],
         },
       ]}
-      title="Forfaits Flexibles pour Tous les Besoins"
+      title="Des tarifs flexibles et adaptés à vos besoins et à votre budget."
       description="Choisissez parmi nos forfaits conçus par des experts ou créons une solution personnalisée qui correspond parfaitement à votre projet et à votre budget."
     />
   </div>
