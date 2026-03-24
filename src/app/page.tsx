@@ -52,13 +52,11 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-animated"}}
-      title="Développez Votre Marque avec un Design Impactant & une Stratégie Marketing Ciblée"
+      title="Agence de Design Créatif et de Stratégie Marketing pour Développer Votre Marque"
       description="Nous créons des expériences visuelles impactantes et déployons des stratégies marketing sur mesure pour faire grandir votre marque et engager durablement votre audience."
       buttons={[
         {
           text: "Voir Mon Portfolio",          href: "/portfolio"},
-        {
-          text: "Prendre Contact",          href: "/contact-form"}
       ]}
       carouselItems={[
         {
@@ -141,7 +139,7 @@ export default function LandingPage() {
           id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
           price: "400 €",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
-              text: "Commencer"},
+              text: "Commencer", href: "/checkout/starter"},
           ],
           features: [
             "Conception de Logo Basique",            "Site Web 1 Page",            "Audit des Réseaux Sociaux",            "Configuration SEO Basique"],
@@ -150,7 +148,7 @@ export default function LandingPage() {
           id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
           price: "800 €",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
-              text: "Choisir Pro"},
+              text: "Choisir Pro", href: "/checkout/pro"},
           ],
           features: [
             "Identité de Marque Complète",            "Site Web 1 page",            "Audit et stratégie de contenu ",            "Set de 12 posts réseaux sociaux"],
