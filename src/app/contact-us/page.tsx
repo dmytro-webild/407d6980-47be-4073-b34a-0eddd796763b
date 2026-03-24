@@ -73,7 +73,7 @@ export default function ContactUsPage() {
             ]}
             textarea={{ name: "message", placeholder: "Votre message", rows: 5, required: true }}
             useInvertedBackground={false}
-            imageSrc="http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg?_wi=1"
             imageAlt="Team working at desk"
             mediaPosition="left"
             buttonText="Envoyer le Message"
