@@ -123,7 +123,7 @@ export default function LandingPage() {
       title="Nos Partenaires et Collaborations"
       description="Nous sommes fiers de collaborer avec des entreprises innovantes pour les aider à atteindre leurs objectifs de design et de marketing."
       names={[
-        "InnovateTech",        "GreenBloom",        "NexusCorp",        "OptiSolutions"
+        "AvivA Cuisines",        "LEM AVOCAT",        "HARAJUKU CLOTHING",        "JENNY'S AGENCY"
       ]}
     />
   </div>
