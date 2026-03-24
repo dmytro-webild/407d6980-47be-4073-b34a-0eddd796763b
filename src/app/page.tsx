@@ -40,6 +40,7 @@ export default function LandingPage() {
           name: "Tarifs",          id: "/#pricing"}
       ]}
       brandName="STRUCTURAL // COLOR"
+      button={{ text: "Contactez-nous", href: "/#pricing" }}
     />
   </div>
 
