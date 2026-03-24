@@ -47,7 +47,7 @@ export default function ContactFormPage() {
             buttonText="Envoyer le Message"
             useInvertedBackground={false}
             mediaPosition="right"
-            imageSrc="http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg?_wi=1"
             imageAlt="Contact form image"
             onSubmit={(data) => console.log("Form submitted:", data)}
           />
