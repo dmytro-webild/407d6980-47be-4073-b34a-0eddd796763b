@@ -145,7 +145,7 @@ export default function LandingPage() {
       plans={[
         {
           id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
-          price: "750€+",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
+          price: "400 €",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
               text: "Commencer",              href: "#contact"},
           ],
