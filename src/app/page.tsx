@@ -39,11 +39,11 @@ export default function LandingPage() {
         {
           name: "Tarifs",          id: "/#pricing"},
         {
-          name: "Contact",          id: "/contact-form"}
+          name: "Contact",          id: "/contact-us"}
       ]}
       brandName="STRUCTURAL // COLOR"
       button={{
-        text: "Obtenir un Devis",        href: "/contact-form"}}
+        text: "Obtenir un Devis",        href: "/contact-us"}}
     />
   </div>
 
@@ -57,7 +57,7 @@ export default function LandingPage() {
         {
           text: "Voir Mon Portfolio",          href: "/#services"},
         {
-          text: "Obtenir une Consultation Gratuite",          href: "/contact-form"},
+          text: "Obtenir une Consultation Gratuite",          href: "/contact-us"},
       ]}
       carouselItems={[
         {
@@ -140,7 +140,7 @@ export default function LandingPage() {
           id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
           price: "400 €",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
-              text: "Commencer",              href: "/contact-form"},
+              text: "Commencer",              href: "/contact-us"},
           ],
           features: [
             "Conception de Logo Basique",            "Site Web 1 Page",            "Audit des Réseaux Sociaux",            "Configuration SEO Basique"],
@@ -149,7 +149,7 @@ export default function LandingPage() {
           id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
           price: "800 €",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
-              text: "Choisir Pro",              href: "/contact-form"},
+              text: "Choisir Pro",              href: "/contact-us"},
           ],
           features: [
             "Identité de Marque Complète",            "Site Web 1 page",            "Audit et stratégie de contenu ",            "Set de 12 posts réseaux sociaux"],
@@ -158,7 +158,7 @@ export default function LandingPage() {
           id: "enterprise",          badge: "Solutions Personnalisées",          badgeIcon: Crown,
           price: "Personnalisé",          subtitle: "Adapté aux grands projets & besoins continus",          buttons: [
             {
-              text: "Contactez-nous pour un Devis",              href: "/contact-form"},
+              text: "Contactez-nous pour un Devis",              href: "/contact-us"},
           ],
           features: [
             "Branding Complet",            "Application Web Personnalisée",            "Marketing Digital Avancé",            "Support Dédié"],
@@ -186,16 +186,22 @@ export default function LandingPage() {
         },
         {
           items: [
-            {              label: "À Propos",              href: "/#about"},
-            {              label: "Témoignages",              href: "/#testimonials"},
-            {              label: "Tarifs",              href: "/#pricing"},
+            {
+              label: "À Propos",              href: "/#about"},
+            {
+              label: "Témoignages",              href: "/#testimonials"},
+            {
+              label: "Tarifs",              href: "/#pricing"},
           ],
         },
         {
           items: [
-            {              label: "Contact",              href: "/contact-form"},
-            {              label: "Politique de Confidentialité",              href: "#"},
-            {              label: "Conditions Générales",              href: "#"},
+            {
+              label: "Contact",              href: "/contact-us"},
+            {
+              label: "Politique de Confidentialité",              href: "#"},
+            {
+              label: "Conditions Générales",              href: "#"},
           ],
         },
       ]}
