@@ -39,10 +39,12 @@ export default function LandingPage() {
         {
           name: "Tarifs",          id: "/#pricing"},
         {
-          name: "Portfolio",          id: "/portfolio"}
+          name: "Portfolio",          id: "/portfolio"},
+        {
+          name: "Contact",          id: "/contact-form"}
       ]}
       brandName="STRUCTURAL // COLOR"
-      button={{ text: "Contactez-nous", href: "/#pricing" }}
+      button={{ text: "Contactez-nous", href: "/contact-form" }}
     />
   </div>
 
@@ -193,6 +195,8 @@ export default function LandingPage() {
         },
         {
           items: [
+            {
+              label: "Contact",              href: "/contact-form"},
             {
               label: "Politique de Confidentialité",              href: "#"},
             {
