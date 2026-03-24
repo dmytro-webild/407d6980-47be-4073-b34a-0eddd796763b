@@ -31,15 +31,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Services",          href: "/#services"},
+          name: "Services",          id: "/#services"},
         {
-          name: "À Propos",          href: "/#about"},
+          name: "À Propos",          id: "/#about"},
         {
-          name: "Témoignages",          href: "/#testimonials"},
+          name: "Témoignages",          id: "/#testimonials"},
         {
-          name: "Tarifs",          href: "/#pricing"},
+          name: "Tarifs",          id: "/#pricing"},
         {
-          name: "Contact",          href: "/contact-form"}
+          name: "Contact",          id: "/contact-form"}
       ]}
       brandName="STRUCTURAL // COLOR"
       button={{
