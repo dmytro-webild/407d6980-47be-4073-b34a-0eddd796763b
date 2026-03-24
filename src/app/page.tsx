@@ -9,7 +9,7 @@ import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis'
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import { Award, Crown, Sparkles, Star, Users } from "lucide-react";
 
 export default function LandingPage() {
@@ -117,23 +117,13 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFifteen
+      <SocialProofOne
       useInvertedBackground={false}
-      testimonial="Travailler avec CreativeFlow Studio a changé la donne pour notre marque. Le travail de conception graphique était exceptionnel, et la stratégie de communication a parfaitement capturé notre voix. Je le recommande vivement !"
-      rating={5}
-      author="Jessica L., PDG d'InnovateTech"
-      avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/business-woman-sitting-table_23-2148095754.jpg",          alt: "Jessica L., PDG d'InnovateTech"},
-        {
-          src: "http://img.b2bpic.net/free-photo/studio-portrait-serious-bearded-male-dressed-suit_613910-5596.jpg",          alt: "Mark T., Fondateur de GreenBloom"},
-        {
-          src: "http://img.b2bpic.net/free-photo/beautiful-dark-skinned-female-with-long-brunette-hair-broad-happy-smile-wearing-denim-shirt-enjoying-good-positive-news-concerning-her-promotion-work-posing-isolated-against-white-blank-wall-b_176420-10367.jpg",          alt: "Sarah P., Directrice Marketing chez NexusCorp"},
-        {
-          src: "http://img.b2bpic.net/free-photo/elderly-businessman-with-laptop_23-2148116267.jpg",          alt: "David K., Chef de Produit chez OptiSolutions"},
+      title="Nos Partenaires et Collaborations"
+      description="Nous sommes fiers de collaborer avec des entreprises innovantes pour les aider à atteindre leurs objectifs de design et de marketing."
+      names={[
+        "InnovateTech",        "GreenBloom",        "NexusCorp",        "OptiSolutions"
       ]}
-      ratingAnimation="slide-up"
-      avatarsAnimation="slide-up"
     />
   </div>
 
@@ -206,22 +196,16 @@ export default function LandingPage() {
         },
         {
           items: [
-            {
-              label: "À Propos",              href: "#about"},
-            {
-              label: "Témoignages",              href: "#testimonials"},
-            {
-              label: "Tarifs",              href: "#pricing"},
+            {              label: "À Propos",              href: "#about"},
+            {              label: "Témoignages",              href: "#testimonials"},
+            {              label: "Tarifs",              href: "#pricing"},
           ],
         },
         {
           items: [
-            {
-              label: "Contact",              href: "#contact"},
-            {
-              label: "Politique de Confidentialité",              href: "#"},
-            {
-              label: "Conditions Générales",              href: "#"},
+            {              label: "Contact",              href: "#contact"},
+            {              label: "Politique de Confidentialité",              href: "#"},
+            {              label: "Conditions Générales",              href: "#"},
           ],
         },
       ]}
