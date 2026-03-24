@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import AboutMetric from '@/components/sections/about/AboutMetric';
-import ContactText from '@/components/sections/contact/ContactText';
+
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
@@ -31,17 +31,19 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Services",          id: "services"},
+          name: "Services",          href: "/#services"},
         {
-          name: "À Propos",          id: "about"},
+          name: "À Propos",          href: "/#about"},
         {
-          name: "Témoignages",          id: "testimonials"},
+          name: "Témoignages",          href: "/#testimonials"},
         {
-          name: "Tarifs",          id: "pricing"},
+          name: "Tarifs",          href: "/#pricing"},
+        {
+          name: "Contact",          href: "/contact-form"}
       ]}
       brandName="STRUCTURAL // COLOR"
       button={{
-        text: "Obtenir un Devis",        href: "#contact"}}
+        text: "Obtenir un Devis",        href: "/contact-form"}}
     />
   </div>
 
@@ -53,9 +55,9 @@ export default function LandingPage() {
       description="Nous créons des expériences visuelles impactantes et déployons des stratégies marketing sur mesure pour faire grandir votre marque et engager durablement votre audience."
       buttons={[
         {
-          text: "Voir Mon Portfolio",          href: "#services"},
+          text: "Voir Mon Portfolio",          href: "/#services"},
         {
-          text: "Obtenir une Consultation Gratuite",          href: "#contact"},
+          text: "Obtenir une Consultation Gratuite",          href: "/contact-form"},
       ]}
       carouselItems={[
         {
@@ -138,7 +140,7 @@ export default function LandingPage() {
           id: "starter",          badge: "Démarrage Parfait",          badgeIcon: Sparkles,
           price: "400 €",          subtitle: "Idéal pour les startups & petits projets",          buttons: [
             {
-              text: "Commencer",              href: "#contact"},
+              text: "Commencer",              href: "/contact-form"},
           ],
           features: [
             "Conception de Logo Basique",            "Site Web 1 Page",            "Audit des Réseaux Sociaux",            "Configuration SEO Basique"],
@@ -147,7 +149,7 @@ export default function LandingPage() {
           id: "pro",          badge: "Le Plus Populaire",          badgeIcon: Star,
           price: "800 €",          subtitle: "Pour les entreprises en croissance cherchant de l'impact",          buttons: [
             {
-              text: "Choisir Pro",              href: "#contact"},
+              text: "Choisir Pro",              href: "/contact-form"},
           ],
           features: [
             "Identité de Marque Complète",            "Site Web 1 page",            "Audit et stratégie de contenu ",            "Set de 12 posts réseaux sociaux"],
@@ -156,7 +158,7 @@ export default function LandingPage() {
           id: "enterprise",          badge: "Solutions Personnalisées",          badgeIcon: Crown,
           price: "Personnalisé",          subtitle: "Adapté aux grands projets & besoins continus",          buttons: [
             {
-              text: "Contactez-nous pour un Devis",              href: "#contact"},
+              text: "Contactez-nous pour un Devis",              href: "/contact-form"},
           ],
           features: [
             "Branding Complet",            "Application Web Personnalisée",            "Marketing Digital Avancé",            "Support Dédié"],
@@ -167,20 +169,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactText
-      useInvertedBackground={false}
-      background={{
-        variant: "radial-gradient"}}
-      text="Prêt(e) à transformer votre marque ? Créons quelque chose d'incroyable ensemble. Contactez-moi aujourd'hui pour une discussion personnalisée."
-      buttons={[
-        {
-          text: "Envoyer un Message",          href: "mailto:hello@creativeflow.com"},
-        {
-          text: "Planifier un Appel",          href: "#"},
-      ]}
-    />
-  </div>
+  
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
@@ -190,21 +179,21 @@ export default function LandingPage() {
             {
               label: "Accueil",              href: "/"},
             {
-              label: "Services",              href: "#services"},
+              label: "Services",              href: "/#services"},
             {
-              label: "Portfolio",              href: "#services"},
+              label: "Portfolio",              href: "/#services"},
           ],
         },
         {
           items: [
-            {              label: "À Propos",              href: "#about"},
-            {              label: "Témoignages",              href: "#testimonials"},
-            {              label: "Tarifs",              href: "#pricing"},
+            {              label: "À Propos",              href: "/#about"},
+            {              label: "Témoignages",              href: "/#testimonials"},
+            {              label: "Tarifs",              href: "/#pricing"},
           ],
         },
         {
           items: [
-            {              label: "Contact",              href: "#contact"},
+            {              label: "Contact",              href: "/contact-form"},
             {              label: "Politique de Confidentialité",              href: "#"},
             {              label: "Conditions Générales",              href: "#"},
           ],
