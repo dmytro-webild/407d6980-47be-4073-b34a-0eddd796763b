@@ -55,7 +55,7 @@ export default function ContactUsPage() {
               {
                 name: "Tarifs",                id: "pricing"},
               {
-                name: "Contact",                href: "/contact-us"}
+                name: "Contact",                id: "/contact-us"}
             ]}
             brandName="STRUCTURAL // COLOR"
             button={{
@@ -68,10 +68,10 @@ export default function ContactUsPage() {
             title="Contactez-nous"
             description="Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais."
             inputs={[
-              { name: "name", type: "text", placeholder: "Votre nom", required: true, value: formData.name, onChange: handleChange },
-              { name: "email", type: "email", placeholder: "Votre adresse e-mail", required: true, value: formData.email, onChange: handleChange },
+              { name: "name", type: "text", placeholder: "Votre nom", required: true },
+              { name: "email", type: "email", placeholder: "Votre adresse e-mail", required: true },
             ]}
-            textarea={{ name: "message", placeholder: "Votre message", rows: 5, required: true, value: formData.message, onChange: handleChange }}
+            textarea={{ name: "message", placeholder: "Votre message", rows: 5, required: true }}
             useInvertedBackground={false}
             imageSrc="http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg"
             imageAlt="Team working at desk"

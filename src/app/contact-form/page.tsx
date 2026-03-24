@@ -24,11 +24,11 @@ export default function ContactFormPage() {
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingOverlay
             navItems={[
-              { name: "Services", href: "/#services" },
-              { name: "À Propos", href: "/#about" },
-              { name: "Témoignages", href: "/#testimonials" },
-              { name: "Tarifs", href: "/#pricing" },
-              { name: "Contact", href: "/contact-form" }
+              { name: "Services", id: "/#services" },
+              { name: "À Propos", id: "/#about" },
+              { name: "Témoignages", id: "/#testimonials" },
+              { name: "Tarifs", id: "/#pricing" },
+              { name: "Contact", id: "/contact-form" }
             ]}
             brandName="STRUCTURAL // COLOR"
             button={{ text: "Obtenir un Devis", href: "/contact-form" }}
