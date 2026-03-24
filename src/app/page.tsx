@@ -37,7 +37,9 @@ export default function LandingPage() {
         {
           name: "Témoignages",          id: "/#testimonials"},
         {
-          name: "Tarifs",          id: "/#pricing"}
+          name: "Tarifs",          id: "/#pricing"},
+        {
+          name: "Portfolio",          id: "/portfolio"}
       ]}
       brandName="STRUCTURAL // COLOR"
       button={{ text: "Contactez-nous", href: "/#pricing" }}
@@ -176,7 +178,7 @@ export default function LandingPage() {
             {
               label: "Services",              href: "/#services"},
             {
-              label: "Portfolio",              href: "/#services"},
+              label: "Portfolio",              href: "/portfolio"},
           ],
         },
         {

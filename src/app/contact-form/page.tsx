@@ -28,6 +28,7 @@ export default function ContactFormPage() {
               { name: "À Propos", id: "/#about" },
               { name: "Témoignages", id: "/#testimonials" },
               { name: "Tarifs", id: "/#pricing" },
+              { name: "Portfolio", id: "/portfolio" },
               { name: "Contact", id: "/contact-form" }
             ]}
             brandName="STRUCTURAL // COLOR"
@@ -60,7 +61,7 @@ export default function ContactFormPage() {
                 items: [
                   { label: "Accueil", href: "/" },
                   { label: "Services", href: "/#services" },
-                  { label: "Portfolio", href: "/#services" }
+                  { label: "Portfolio", href: "/portfolio" }
                 ]
               },
               {
