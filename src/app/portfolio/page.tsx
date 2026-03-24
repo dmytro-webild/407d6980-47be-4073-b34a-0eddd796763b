@@ -44,17 +44,17 @@ export default function PortfolioPage() {
             description="Découvrez une sélection de mes travaux récents en design graphique, développement web et stratégie marketing."
             features={[
               {
-                id: "1",                title: "Marque X - Refonte d'Identité",                tags: ["Branding", "Design Graphique"],
-                imageSrc: "http://img.b2bpic.net/free-vector/modern-creative-gradient-business-brochure-design-template_1017-31012.jpg",                imageAlt: "Refonte d'identité visuelle pour Marque X"},
+                id: "1",                title: "Jenny's - Refonte identité graphique. ",                tags: ["Branding", "Design Graphique"],
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BLgh5meiyFFxdyU9YEOi16Nr6V/uploaded-1774361382268-lg0gxu67.png",                imageAlt: "Refonte d'identité visuelle pour Marque X"},
               {
-                id: "2",                title: "Site E-commerce Y",                tags: ["Développement Web", "UX/UI"],
-                imageSrc: "http://img.b2bpic.net/free-psd/web-design-template-design-ui-ux_23-2149303023.jpg",                imageAlt: "Site e-commerce moderne et responsive"},
+                id: "2",                title: "AvivA Cuisines ",                tags: ["Campagne Communicaton ", "Développement image de marque"],
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BLgh5meiyFFxdyU9YEOi16Nr6V/uploaded-1774361182628-mvptybyd.png",                imageAlt: "Site e-commerce moderne et responsive"},
               {
-                id: "3",                title: "Campagne Digitale Z",                tags: ["Marketing Digital", "Réseaux Sociaux"],
-                imageSrc: "http://img.b2bpic.net/free-photo/social-media-marketing-concept_23-2150379961.jpg",                imageAlt: "Campagne de marketing digital réussie"},
+                id: "3",                title: "Harajuku Clothing",                tags: ["Création site e-commerce", "Réseaux Sociaux"],
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BLgh5meiyFFxdyU9YEOi16Nr6V/uploaded-1774361240371-vqli00yx.png",                imageAlt: "Campagne de marketing digital réussie"},
               {
-                id: "4",                title: "Application Mobile A",                tags: ["UX/UI", "Application Mobile"],
-                imageSrc: "http://img.b2bpic.net/free-vector/website-template-design_23-2148421833.jpg",                imageAlt: "Conception d'application mobile intuitive"},
+                id: "4",                title: "LEM - Avocat",                tags: ["Développement image de marque", "Création site internet responsive"],
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BLgh5meiyFFxdyU9YEOi16Nr6V/uploaded-1774361270225-63xwr3qv.png",                imageAlt: "Conception d'application mobile intuitive"},
             ]}
           />
         </div>
