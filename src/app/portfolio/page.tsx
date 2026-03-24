@@ -26,12 +26,12 @@ export default function PortfolioPage() {
             navItems={[
               { name: "Services", id: "/#services" },
               { name: "À Propos", id: "/#about" },
-              { name: "Témoignages", id: "/#testimonials" },
+              { name: "Partenaires", id: "/#testimonials" },
               { name: "Tarifs", id: "/#pricing" },
               { name: "Portfolio", id: "/portfolio" }
             ]}
             brandName="STRUCTURAL // COLOR"
-            button={{ text: "Obtenir un Devis", href: "/contact-form" }}
+            button={{ text: "Contactez-nous", href: "/contact-form" }}
           />
         </div>
 
@@ -72,7 +72,7 @@ export default function PortfolioPage() {
               {
                 items: [
                   { label: "À Propos", href: "/#about" },
-                  { label: "Témoignages", href: "/#testimonials" },
+                  { label: "Partenaires", href: "/#testimonials" },
                   { label: "Tarifs", href: "/#pricing" }
                 ]
               },
