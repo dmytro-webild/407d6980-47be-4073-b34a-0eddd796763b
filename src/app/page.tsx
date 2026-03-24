@@ -69,7 +69,7 @@ export default function LandingPage() {
         {
           id: "4",          imageSrc: "http://img.b2bpic.net/free-vector/collection-professional-stationery-template-business-presentation_1017-54129.jpg",          imageAlt: "Éléments de branding en design de communication"},
         {
-          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg",          imageAlt: "Conception web responsive sur ordinateur portable, tablette, téléphone"},
+          id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-people-working-desk_23-2149741154.jpg?_wi=2",          imageAlt: "Conception web responsive sur ordinateur portable, tablette, téléphone"},
         {
           id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/data-analysis-marketing-business-report-concept_53876-124759.jpg",          imageAlt: "Planification de campagne de marketing sur les réseaux sociaux"},
       ]}
@@ -108,7 +108,7 @@ export default function LandingPage() {
           tag: "Digital",          title: "Conception de site ",          subtitle: "Création de sites web engageants, responsives et performants.",          description: "Création de sites web modernes et intuitifs, avec une navigation fluide, un design impactant et des fonctionnalités performantes sur tous les appareils.",          imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page_52683-10153.jpg"},
         {
           id: 3,
-          tag: "Stratégie",          title: "Stratégie de Communication",          subtitle: "Création de messages de marque clairs, cohérents et percutants pour renforcer votre identité et marquer les esprits.",          description: "Développement de stratégies de communication efficaces, de contenus percutants et d’une voix de marque cohérente pour garantir un message clair, impactant et mémorable.",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg"},
+          tag: "Stratégie",          title: "Stratégie de Communication",          subtitle: "Création de messages de marque clairs, cohérents et percutants pour renforcer votre identité et marquer les esprits.",          description: "Développement de stratégies de communication efficaces, de contenus percutants et d’une voix de marque cohérente pour garantir un message clair, impactant et mémorable.",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-business-people-working-together_23-2150384880.jpg?_wi=2"},
         {
           id: 4,
           tag: "Croissance",          title: "Stratégie Marketing",          subtitle: "Maximisez votre visibilité en ligne et l’impact de votre marque grâce à des stratégies digitales efficaces.",          description: "Mise en œuvre de stratégies data-driven en SEO, réseaux sociaux, email marketing et campagnes payantes pour accroître votre visibilité et générer davantage de conversions.",          imageSrc: "http://img.b2bpic.net/free-photo/friends-using-smartphones-together-outdoors_53876-26150.jpg"},
