@@ -119,6 +119,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <SocialProofOne
       useInvertedBackground={false}
+      textboxLayout="default"
       title="Nos Partenaires et Collaborations"
       description="Nous sommes fiers de collaborer avec des entreprises innovantes pour les aider à atteindre leurs objectifs de design et de marketing."
       names={[
