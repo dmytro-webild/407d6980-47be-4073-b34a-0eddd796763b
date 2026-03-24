@@ -28,6 +28,7 @@ export default function ContactUsPage() {
               { name: "À Propos", id: "/#about" },
               { name: "Témoignages", id: "/#testimonials" },
               { name: "Tarifs", id: "/#pricing" },
+              { name: "Portfolio", id: "/portfolio" },
               { name: "Contact", id: "/contact-us" }
             ]}
             brandName="STRUCTURAL // COLOR"
@@ -56,23 +57,23 @@ export default function ContactUsPage() {
                 items: [
                   { label: "Accueil", href: "/" },
                   { label: "Services", href: "/#services" },
-                  { label: "Portfolio", href: "/#services" },
-                ],
+                  { label: "Portfolio", href: "/portfolio" }
+                ]
               },
               {
                 items: [
                   { label: "À Propos", href: "/#about" },
                   { label: "Témoignages", href: "/#testimonials" },
-                  { label: "Tarifs", href: "/#pricing" },
-                ],
+                  { label: "Tarifs", href: "/#pricing" }
+                ]
               },
               {
                 items: [
                   { label: "Contact", href: "/contact-us" },
                   { label: "Politique de Confidentialité", href: "#" },
-                  { label: "Conditions Générales", href: "#" },
-                ],
-              },
+                  { label: "Conditions Générales", href: "#" }
+                ]
+              }
             ]}
             logoText="STRUCTURAL COLOR"
           />
