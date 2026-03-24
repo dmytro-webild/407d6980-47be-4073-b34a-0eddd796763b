@@ -52,11 +52,13 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-animated"}}
-      title="Agence de Design Créatif et de Stratégie Marketing pour Développer Votre Marque"
+      title="Développez Votre Marque avec un Design Impactant & une Stratégie Marketing Ciblée"
       description="Nous créons des expériences visuelles impactantes et déployons des stratégies marketing sur mesure pour faire grandir votre marque et engager durablement votre audience."
       buttons={[
         {
           text: "Voir Mon Portfolio",          href: "/portfolio"},
+        {
+          text: "Prendre Contact",          href: "/contact-form"}
       ]}
       carouselItems={[
         {
